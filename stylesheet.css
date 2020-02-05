@@ -2,15 +2,32 @@
 @import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:900&display=swap');
-body {
+html {
   scroll-behavior: smooth;
-    width: 1295.2px;
-    height: 100vh;
+}
+body {
+    width: 1600px;
     margin: 0;
     background-color: #222227;
-}
-.page1 {
-  margin: 0;
+  }
+  #home {
+    position: relative;
+    top: 0%;
+    right: 0%;
+    background-color: #ff1c73;
+    border-radius: 50%;
+    width: 100px;
+    height: 50px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  .page1 {
+    width: 1600px;
+    height: 1500px;
+    overflow: hidden;
+    margin: 0;
 }
 /*标题*/
 p {
@@ -613,7 +630,6 @@ button {
 button:hover {
   color: whitesmoke;
   opacity:1;
-  scroll-behavior: ;
 }
 
 /*图片*/
